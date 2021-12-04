@@ -1,1 +1,4 @@
-# posix-bridge
+# STR TP1
+>Un pont supporte une charge maximale de 15 tonnes. Ce pont est traversé par des camions dont le poids est de 15 tonnes ainsi que par des voitures dont le poids est de 5 tonnes. On vous demande de >gérer l'accès au pont de sorte que la charge maximale du pont soit respectée.
+1. Donnez un programme comportant un moniteur (une fonction d'acquisition et une fonction de libération du pont) qui simule les règles de partage du pont ci-dessus. Votre programme modélisera les camions et voitures sous la forme de threads.
+2. Quand un véhicule quitte le pont, on souhaite donner la priorité aux camions : lorsqu'une voiture et un camion sont bloqués en attente d'obtenir l'accès au pont, le camion doit être réveillé en premier, sous réserve, bien sûr, que la capacité maximale du pont soit respectée.
